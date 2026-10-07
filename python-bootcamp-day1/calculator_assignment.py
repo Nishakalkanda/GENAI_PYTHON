@@ -84,3 +84,5 @@ print("Hi " +name+", you are "+str(age)+ "yrs old and you are living in "+ city)
 # formatting
 
 print("Hi {}, you are {}yrs old and you are living in {}".format(name, age, city))
+
+
