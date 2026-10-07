@@ -5,6 +5,8 @@ print(f"Hello, {name}! Welcome to Python.")
 
 #Daily Assignment: Building a calculator with input validation
 
+print("Welcome to CALCULATOR Program: ")
+
 a = input("Enter the first number: ")
 b = input("Enter the second number: ")
 
@@ -20,7 +22,10 @@ elif operation == "*":
     result = int(a) * int(b)
     print(f"The product of {a} and {b} is {result}")
 elif operation == "/":
-    result = int(a) / int(b)
+    if b == 0:
+        print("zero not allowed")
+    else:
+        result = int(a) / int(b)
     print(f"The quotient of {a} and {b} is {result}")
 else:
     print("Invalid operation. Please enter a valid operation.")
@@ -36,7 +41,7 @@ else:
   
 #1 : Store user’s name, age, and city using input() and print a welcome message.    
     
-    
+print("WELCOME TO USER INPUT INFO PROGRAM: ")
 name = input("Enter your Name : ")
 age =  int(input("Enter your Age: "))
 city = input("Enter your city name: ")
@@ -50,6 +55,8 @@ print(f"Hello your username is {name}, you are {age}yrs old and you live in {cit
 
 #2: Convert string inputs to appropriate data types.
 
+
+print("CONVERT STRING INTO APPROPRIATE DATA TYPE PROGRAM: ")
 age = input("Enter your Age: ")
 type_of_age = type(age)
 print(f"Your age is {age} and its data type is {type_of_age}")
@@ -59,6 +66,8 @@ print(type_of_age)
 
 
 #3 : Display data using all three string formatting methods
+
+print("DISPLAY DATA USING ALL FORMATTING METHODS: ")
 
 name = "NISHA"
 age = 25
